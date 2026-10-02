@@ -19,7 +19,7 @@ my_kicad_project
 └── sym-lib-table
 ```
 
-and you have successfully added the `JLCPCB-Kicad-Library` into `my_kicad_project/libs/JLCPCB-Kicad-Library` as a git-submodule with branch `git_submodule`. 
+and you have successfully added the `JLCPCB-Kicad-Library` into `my_kicad_project/libs/JLCPCB-Kicad-Library` as a git-submodule with branch `cordicor`. 
 To make everything work, you need to do three steps, which are automated by running `bash add_jlcpcb_library_to_project.sh`. To do it manually, follow the next steps.
 
 # Steps for every to work as usual
