@@ -1,0 +1,77 @@
+name: Sync from upstream
+
+on:
+  schedule:  # run 90 mins after the upstream library update
+    - cron: "30 7 * * *"
+  workflow_dispatch:  # allow for manually trigger workflow
+
+concurrency: sync-upstream
+
+env:
+  UPSTREAM_REPO: https://github.com/CDFER/JLCPCB-Kicad-Library.git
+  UPSTREAM_BRANCH: main
+  TARGET_BRANCH: cordicor
+
+jobs:
+  sync-upstream:
+    runs-on: ubuntu-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # merged and changed files to the repository.
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TARGET_BRANCH }}
+          fetch-depth: 0  # full history is needed to merge
+          # The default token is not allowed to push changes to workflow files.
+          # Set the SYNC_TOKEN secret (PAT with contents + workflows write) if
+          # upstream changes its workflows and the push gets rejected.
+          token: ${{ secrets.SYNC_TOKEN || github.token }}
+
+      - name: Merge upstream
+        env:
+          GIT_LITERAL_PATHSPECS: 1  # footprint file names contain spaces and commas
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git remote add upstream "$UPSTREAM_REPO"
+          git fetch upstream "$UPSTREAM_BRANCH"
+          upstream="upstream/$UPSTREAM_BRANCH"
+          echo "UPSTREAM_SHA=$(git rev-parse --short "$upstream")" >> "$GITHUB_ENV"
+
+          # Upstream wins on conflicts, the path rewrite is re-applied afterwards
+          if ! git merge --no-ff --no-commit -X theirs "$upstream"; then
+              # Left over are conflicts like modify/delete: take the upstream state
+              git diff --name-only --diff-filter=U -z | while IFS= read -r -d '' file; do
+                  if git cat-file -e "$upstream:$file" 2>/dev/null; then
+                      git checkout "$upstream" -- "$file"
+                  else
+                      git rm -q -f -- "$file"
+                  fi
+              done
+          fi
+
+          # The upstream library generator must not run in this fork
+          git rm -q -f --ignore-unmatch .github/workflows/update-library.yml
+
+      - name: Rewrite 3D-model paths
+        run: |
+          bash fix_3d_model_paths.sh
+          if grep -rq '_3RD_PARTY}' footprints; then
+              echo "::error::footprints still reference the KiCad 3rd party folder"
+              exit 1
+          fi
+
+      - name: Commit and push
+        run: |
+          git add -A
+          if git rev-parse -q --verify MERGE_HEAD > /dev/null || ! git diff --cached --quiet; then
+              git commit -m "Sync upstream $UPSTREAM_SHA and rewrite 3D-model paths"
+              git push origin "HEAD:$TARGET_BRANCH"
+          else
+              echo "Already up to date"
+          fi
