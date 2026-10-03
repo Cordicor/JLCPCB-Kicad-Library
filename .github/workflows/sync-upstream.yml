@@ -65,13 +65,14 @@ jobs:
       - name: Generate symbol libraries
         run: |
           set -euo pipefail
-          pip install -r requirements.txt
+          python -m pip install -r requirements.txt
           python libraryCreatorScript.py
           if ! grep -q '(symbol ' symbols/JLCPCB-Resistors.kicad_sym; then
             echo "::error::libraryCreatorScript.py did not write symbols"
+            ls -lh symbols/JLCPCB-Resistors.kicad_sym || true
             exit 1
           fi
-          rm -f JLCPCB-KiCad-Library-*.zip leftover.csv
+          rm -f JLCPCB-KiCad-Library-*.zip leftover.csv jlcpcb-components-basic-preferred.csv
 
       - name: Rewrite 3D-model paths
         run: |
