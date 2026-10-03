@@ -62,6 +62,47 @@ jobs:
         with:
           python-version: "3.13"
 
+      - name: Patch price parser
+        run: |
+          python - << 'PY'
+          from pathlib import Path
+          p = Path("libraryCreatorScript.py")
+          text = p.read_text()
+          old = '''    try:
+              price_json = json.loads(df.loc[index, "price"])
+              if price_json and len(price_json) > 0 and "price" in price_json[0]:
+                  base_price = float(price_json[0]["price"])
+                  # Calculate the total price considering joints and joint cost
+                  price = base_price + (joints * joint_cost)
+                  price = round(price, 3)
+                  price_str = f"{price:.3f}USD"
+
+              else:
+                  price_str = f""
+                  print(f"Error: Price is missing or invalid for https://jlcpcb.com/partdetail/C{lcsc} ({price_json})")
+          except (json.JSONDecodeError, ValueError, KeyError, TypeError):
+              price_str = f""
+              print(f"Error: Price cannot be parsed https://jlcpcb.com/partdetail/C{lcsc}")
+          '''
+          new = '''    price = None
+          try:
+              raw_price = str(df.loc[index, "price"])
+              if raw_price.startswith("["):
+                  price_json = json.loads(raw_price)
+                  base_price = float(price_json[0]["price"])
+              else:
+                  base_price = float(raw_price.split(",")[0].split(":")[-1])
+              price = round(base_price + (joints * joint_cost), 3)
+              price_str = f"{price:.3f}USD"
+          except (json.JSONDecodeError, ValueError, KeyError, TypeError, IndexError):
+              price_str = ""
+              print(f"Error: Price cannot be parsed https://jlcpcb.com/partdetail/C{lcsc}")
+          '''
+          if old not in text:
+              raise SystemExit("price parser block not found; upstream changed")
+          p.write_text(text.replace(old, new, 1))
+          PY
+
       - name: Generate symbol libraries
         run: |
           set -euo pipefail
@@ -69,7 +110,6 @@ jobs:
           python libraryCreatorScript.py
           if ! grep -q '(symbol ' symbols/JLCPCB-Resistors.kicad_sym; then
             echo "::error::libraryCreatorScript.py did not write symbols"
-            ls -lh symbols/JLCPCB-Resistors.kicad_sym || true
             exit 1
           fi
           rm -f JLCPCB-KiCad-Library-*.zip leftover.csv jlcpcb-components-basic-preferred.csv
