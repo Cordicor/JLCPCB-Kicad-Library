@@ -564,23 +564,21 @@ for index in range(0, len(df)):
     else:
         joint_cost = smt_joint_cost
 
+    price = None
     try:
-        price_json = json.loads(df.loc[index, "price"])
-        if price_json and len(price_json) > 0 and "price" in price_json[0]:
+        raw_price = str(df.loc[index, "price"])
+        if raw_price.startswith("["):
+            price_json = json.loads(raw_price)
             base_price = float(price_json[0]["price"])
-            # Calculate the total price considering joints and joint cost
-            price = base_price + (joints * joint_cost)
-            price = round(price, 3)
-            price_str = f"{price:.3f}USD"
-
         else:
-            price_str = f""
-            print(f"Error: Price is missing or invalid for https://jlcpcb.com/partdetail/C{lcsc} ({price_json})")
-    except (json.JSONDecodeError, ValueError, KeyError, TypeError):
-        price_str = f""
+            base_price = float(raw_price.split(",")[0].split(":")[-1])
+        price = round(base_price + (joints * joint_cost), 3)
+        price_str = f"{price:.3f}USD"
+    except (json.JSONDecodeError, ValueError, KeyError, TypeError, IndexError):
+        price_str = ""
         print(f"Error: Price cannot be parsed https://jlcpcb.com/partdetail/C{lcsc}")
 
-    if price > 3.0 or footprint_name == "0201" or lcsc == 882967 or stock < min_order_qty:
+    if price is None or price > 3.0 or footprint_name == "0201" or lcsc == 882967 or stock < min_order_qty:
         df.drop(index=index, inplace=True)
     else:
         component_class = get_basic_or_prefered_type(df, index)
