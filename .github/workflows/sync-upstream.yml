@@ -3,7 +3,7 @@ name: Sync from upstream
 on:
   schedule:  # run 90 mins after the upstream library update
     - cron: "30 7 * * *"
-  workflow_dispatch:  # allow for manually trigger workflow
+  workflow_dispatch:
 
 concurrency: sync-upstream
 
@@ -17,23 +17,18 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      # Give the default GITHUB_TOKEN write permission to commit and push the
-      # merged and changed files to the repository.
       contents: write
 
     steps:
       - uses: actions/checkout@v4
         with:
           ref: ${{ env.TARGET_BRANCH }}
-          fetch-depth: 0  # full history is needed to merge
-          # The default token is not allowed to push changes to workflow files.
-          # Set the SYNC_TOKEN secret (PAT with contents + workflows write) if
-          # upstream changes its workflows and the push gets rejected.
+          fetch-depth: 0
           token: ${{ secrets.SYNC_TOKEN || github.token }}
 
       - name: Merge upstream
         env:
-          GIT_LITERAL_PATHSPECS: 1  # footprint file names contain spaces and commas
+          GIT_LITERAL_PATHSPECS: 1
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -43,9 +38,7 @@ jobs:
           upstream="upstream/$UPSTREAM_BRANCH"
           echo "UPSTREAM_SHA=$(git rev-parse --short "$upstream")" >> "$GITHUB_ENV"
 
-          # Upstream wins on conflicts, the path rewrite is re-applied afterwards
           if ! git merge --no-ff --no-commit -X theirs "$upstream"; then
-              # Left over are conflicts like modify/delete: take the upstream state
               git diff --name-only --diff-filter=U -z | while IFS= read -r -d '' file; do
                   if git cat-file -e "$upstream:$file" 2>/dev/null; then
                       git checkout "$upstream" -- "$file"
@@ -55,7 +48,8 @@ jobs:
               done
           fi
 
-          # The upstream library generator must not run in this fork
+          # Keep the cordicor price-parser fix; -X theirs would overwrite it.
+          git checkout HEAD -- libraryCreatorScript.py
           git rm -q -f --ignore-unmatch .github/workflows/update-library.yml
 
       - uses: actions/setup-python@v5
@@ -67,7 +61,10 @@ jobs:
           set -euo pipefail
           python -m pip install -r requirements.txt
           python libraryCreatorScript.py
-          if ! grep -q '(symbol ' symbols/JLCPCB-Resistors.kicad_sym; then
+          # The generator archives footprints and STEP files because their paths
+          # already point at ${KIPRJMOD}. Keep only the generated symbols.
+          git checkout -- 3dmodels footprints Archived-Symbols-Footprints
+          if ! grep -q '(symbol ' symbols/JLCPCB-Diodes.kicad_sym; then
             echo "::error::libraryCreatorScript.py did not write symbols"
             exit 1
           fi
