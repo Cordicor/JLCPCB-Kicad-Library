@@ -48,44 +48,9 @@ jobs:
               done
           fi
 
-          # Keep the cordicor price-parser fix; -X theirs would overwrite it.
-          git checkout HEAD -- libraryCreatorScript.py
+          # Upstream symbols are empty headers. Keep the seeded libraries.
+          git checkout HEAD -- libraryCreatorScript.py symbols
           git rm -q -f --ignore-unmatch .github/workflows/update-library.yml
-
-      - name: Seed symbol libraries from last full package
-        run: |
-          set -euo pipefail
-          zip="$(mktemp)"
-          tmp="$(mktemp -d)"
-          url="https://github.com/CDFER/JLCPCB-Kicad-Library/releases/download/2025.07.18/JLCPCB-KiCad-Library-2025.07.18.zip"
-          curl -fL --retry 3 -o "$zip" "$url"
-          unzip -q "$zip" -d "$tmp"
-          src="$(find "$tmp" -type d -name symbols -print -quit)"
-          [ -n "$src" ]
-          find "$src" -name '*.kicad_sym' -exec cp -f {} symbols/ \;
-          if ! grep -q '(symbol ' symbols/JLCPCB-Resistors.kicad_sym; then
-            echo "::error::2025.07.18 package has no resistor symbols"
-            exit 1
-          fi
-          rm -rf "$zip" "$tmp"
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.13"
-
-      - name: Generate symbol libraries
-        run: |
-          set -euo pipefail
-          python -m pip install -r requirements.txt
-          python libraryCreatorScript.py
-          # The generator archives footprints and STEP files because their paths
-          # already point at ${KIPRJMOD}. Keep only the generated symbols.
-          git checkout -- 3dmodels footprints Archived-Symbols-Footprints
-          if ! grep -q '(symbol ' symbols/JLCPCB-Diodes.kicad_sym; then
-            echo "::error::libraryCreatorScript.py did not write symbols"
-            exit 1
-          fi
-          rm -f JLCPCB-KiCad-Library-*.zip leftover.csv jlcpcb-components-basic-preferred.csv
 
       - name: Rewrite 3D-model paths
         run: |
