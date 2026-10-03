@@ -58,6 +58,26 @@ jobs:
           # The upstream library generator must not run in this fork
           git rm -q -f --ignore-unmatch .github/workflows/update-library.yml
 
+      - name: Fill symbol libraries from upstream release
+        run: |
+          set -euo pipefail
+          zip="$(mktemp)"
+          tmp="$(mktemp -d)"
+          url="$(curl -fsSL https://api.github.com/repos/CDFER/JLCPCB-Kicad-Library/releases/latest \
+            | sed -n 's/.*"browser_download_url": "\(.*\.zip\)".*/\1/p' | head -n 1)"
+          [ -n "$url" ]
+          echo "Release zip: $url"
+          curl -fL --retry 3 -o "$zip" "$url"
+          unzip -q "$zip" -d "$tmp"
+          src="$(find "$tmp" -type d -name symbols -print -quit)"
+          [ -n "$src" ]
+          find "$src" -name '*.kicad_sym' -exec cp -f {} symbols/ \;
+          if ! grep -q '(symbol ' symbols/JLCPCB-Resistors.kicad_sym; then
+            echo "::error::release zip did not contain generated symbols"
+            exit 1
+          fi
+          rm -rf "$zip" "$tmp"
+
       - name: Rewrite 3D-model paths
         run: |
           bash fix_3d_model_paths.sh
