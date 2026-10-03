@@ -52,6 +52,22 @@ jobs:
           git checkout HEAD -- libraryCreatorScript.py
           git rm -q -f --ignore-unmatch .github/workflows/update-library.yml
 
+      - name: Seed symbol libraries from last full package
+        run: |
+          set -euo pipefail
+          zip="$(mktemp)"
+          tmp="$(mktemp -d)"
+          curl -fL --retry 3 -o "$zip" "$SYMBOLS_ZIP"
+          unzip -q "$zip" -d "$tmp"
+          src="$(find "$tmp" -type d -name symbols -print -quit)"
+          [ -n "$src" ]
+          find "$src" -name '*.kicad_sym' -exec cp -f {} symbols/ \;
+          if ! grep -q '(symbol ' symbols/JLCPCB-Resistors.kicad_sym; then
+            echo "::error::2025.07.18 package has no resistor symbols"
+            exit 1
+          fi
+          rm -rf "$zip" "$tmp"
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
