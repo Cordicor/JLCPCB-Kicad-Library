@@ -2,4 +2,6555 @@
 	(version 20231120)
 	(generator "CDFER")
 	(generator_version "8.0")
+	(symbol "NPN,BC847C"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847C"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8755882758713282560"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 NPN 100MHz 100mA 100nA 200mW 420 45V 500mV 6V NPN SOT-23 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420337"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "466899"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.018USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "BC847C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "NPN,BC847C_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "NPN,BC847C_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "NPN,MMBT2222A"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8786581379206836224"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 NPN 100 100nA 1V 300MHz 300mW 40V 600mA 6V NPN Standalone SOT-23 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420351"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "676484"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.024USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "MMBT2222A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "NPN,MMBT2222A_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "NPN,MMBT2222A_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "PNP,MMBT2907A"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2907A"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8655839417891958784"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 PNP 100 100nA 200MHz 250mW 400mV 5V 600mA 60V PNP SOT-23 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420352"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "113342"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.026USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "MMBT2907A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "PNP,MMBT2907A_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "PNP,MMBT2907A_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "NPN,MMBT3904"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8755886419842093056"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 NPN 100 100nA 200mA 200mW 300MHz 300mV 40V 6V NPN SOT-23 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420353"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "4881255"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.021USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "MMBT3904"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "NPN,MMBT3904_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "NPN,MMBT3904_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "PNP,MMBT3906"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3906"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8644231217485619200"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 PNP 100 100nA 200mA 200mW 300MHz 300mV 40V 5V PNP SOT-23 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420354"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "780352"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.017USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "MMBT3906"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "PNP,MMBT3906_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "PNP,MMBT3906_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "PNP,MMBT5401"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT5401"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8755886436736884736"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 PNP 100 100MHz 100nA 160V 200mV 300mW 5V 600mA PNP SOT-23 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420356"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "4919695"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.018USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "MMBT5401"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "PNP,MMBT5401_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "PNP,MMBT5401_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "NPN,MMBT5551"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT5551"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8755886448098848768"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 NPN 100 100MHz 150mV 160V 300mW 50nA 600mA 6V NPN SOT-23 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420357"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "8277075"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.017USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "MMBT5551"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "NPN,MMBT5551_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "NPN,MMBT5551_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "NPN,SS8050"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS8050"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8755884013439594496"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 NPN 1.5A 100MHz 100nA 120 25V 300mW 500mV 5V NPN SOT-23 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420370"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "6217047"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.018USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SS8050"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "NPN,SS8050_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "NPN,SS8050_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "PNP,SS8550"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS8550"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8755884024919539712"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 PNP 1.5A 100MHz 100nA 120 25V 300mW 500mV 5V PNP SOT-23 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420371"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "1488114"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.018USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SS8550"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "PNP,SS8550_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "PNP,SS8550_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "NMOS,2N7002"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8755887314520825856"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 N-channel 1.6V 1.6nC@10V 115mA 225mW 25pF 50pF 5pF 60V 900mΩ@10V N-Channel SOT-23 MOSFETs ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420321"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "1013085"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.023USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,MOSFETs"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "2N7002"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "NMOS,2N7002_0_1"
+            (polyline
+                (pts
+                    (xy 0.254 0) (xy -2.54 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.254 1.905) (xy 0.254 -1.905)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 -1.27) (xy 0.762 -2.286)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 0.508) (xy 0.762 -0.508)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 2.286) (xy 0.762 1.27)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 2.54) (xy 2.54 1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 1.651 0)
+                (radius 2.794)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 2.54 -1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 2.54 1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+        )
+        (symbol "NMOS,2N7002_1_1"
+            (pin passive line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "D"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "G"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin passive line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "S"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "NMOS,BSS123"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS123"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8755882768637411328"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 N-channel 1.4V 1.4nC@10V 100V 170mA 22pF 2pF 3.5pF 680mW 6Ω@10V、10Ω@4.5V N-Channel SOT-23 MOSFETs ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420338"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "867615"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.027USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,MOSFETs"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "BSS123"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "NMOS,BSS123_0_1"
+            (polyline
+                (pts
+                    (xy 0.254 0) (xy -2.54 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.254 1.905) (xy 0.254 -1.905)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 -1.27) (xy 0.762 -2.286)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 0.508) (xy 0.762 -0.508)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 2.286) (xy 0.762 1.27)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 2.54) (xy 2.54 1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 1.651 0)
+                (radius 2.794)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 2.54 -1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 2.54 1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+        )
+        (symbol "NMOS,BSS123_1_1"
+            (pin passive line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "D"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "G"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin passive line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "S"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "NMOS,BSS138"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8788895156386701312"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 N-channel 1.1Ω@10V、1.2Ω@4.5V 1.2V 1.7nC@10V 17.5pF 340mA 350mW 50V 6.5pF N-Channel SOT-23 MOSFETs ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420339"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "126833"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.032USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,MOSFETs"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "BSS138"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "NMOS,BSS138_0_1"
+            (polyline
+                (pts
+                    (xy 0.254 0) (xy -2.54 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.254 1.905) (xy 0.254 -1.905)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 -1.27) (xy 0.762 -2.286)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 0.508) (xy 0.762 -0.508)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 2.286) (xy 0.762 1.27)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 2.54) (xy 2.54 1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 1.651 0)
+                (radius 2.794)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 2.54 -1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 2.54 1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+        )
+        (symbol "NMOS,BSS138_1_1"
+            (pin passive line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "D"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "G"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin passive line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "S"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "NMOS,HL2300"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HL2300"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8755886330209681408"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 N-channel 1W 20V 20mΩ@4.5V 4.5A 418pF 6.06nC@4.5V 600mV 70pF 82pF N-Channel SOT-23 MOSFETs ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420343"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "380564"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.038USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,MOSFETs"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "HL2300"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "NMOS,HL2300_0_1"
+            (polyline
+                (pts
+                    (xy 0.254 0) (xy -2.54 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.254 1.905) (xy 0.254 -1.905)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 -1.27) (xy 0.762 -2.286)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 0.508) (xy 0.762 -0.508)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 2.286) (xy 0.762 1.27)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 2.54) (xy 2.54 1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 1.651 0)
+                (radius 2.794)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 2.54 -1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 2.54 1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+        )
+        (symbol "NMOS,HL2300_1_1"
+            (pin passive line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "D"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "G"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin passive line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "S"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "PMOS,HL2301A"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HL2301A"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8755886345602641920"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 P-Channel 2.3A 20V 3.3nC@2.5V、5.5nC@4.5V 405pF 55pF 700mV 700mW 75pF 90mΩ@4.5V、110mΩ@2.5V P-Channel SOT-23 MOSFETs ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420344"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "90589"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.032USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,MOSFETs"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "HL2301A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "PMOS,HL2301A_0_1"
+            (polyline
+                (pts
+                    (xy 0.254 0) (xy -2.54 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.254 1.905) (xy 0.254 -1.905)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 -1.27) (xy 0.762 -2.286)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 0.508) (xy 0.762 -0.508)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 2.286) (xy 0.762 1.27)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 2.54) (xy 2.54 1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 1.651 0)
+                (radius 2.794)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 2.54 -1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 2.54 1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+        )
+        (symbol "PMOS,HL2301A_1_1"
+            (pin passive line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "D"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "G"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin passive line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "S"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "PMOS,HL2303"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HL2303"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8755886358726889472"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 P-Channel 1.6V 1.9A 155pF 25pF 30V 350mW 4nC@10V 75mΩ@10V P-Channel SOT-23 MOSFETs ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420345"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "408572"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.040USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,MOSFETs"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "HL2303"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "PMOS,HL2303_0_1"
+            (polyline
+                (pts
+                    (xy 0.254 0) (xy -2.54 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.254 1.905) (xy 0.254 -1.905)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 -1.27) (xy 0.762 -2.286)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 0.508) (xy 0.762 -0.508)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 2.286) (xy 0.762 1.27)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 2.54) (xy 2.54 1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 1.651 0)
+                (radius 2.794)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 2.54 -1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 2.54 1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+        )
+        (symbol "PMOS,HL2303_1_1"
+            (pin passive line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "D"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "G"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin passive line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "S"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "NMOS,HL2304"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HL2304"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8755886370546302976"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 N-channel 1.5V 17pF 1W 234pF 3.6A 30V 37mΩ@10V、57mΩ@4.5V 6.08nC@10V N-Channel SOT-23 MOSFETs ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420346"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "45644"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.037USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,MOSFETs"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "HL2304"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "NMOS,HL2304_0_1"
+            (polyline
+                (pts
+                    (xy 0.254 0) (xy -2.54 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.254 1.905) (xy 0.254 -1.905)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 -1.27) (xy 0.762 -2.286)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 0.508) (xy 0.762 -0.508)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 2.286) (xy 0.762 1.27)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 2.54) (xy 2.54 1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 1.651 0)
+                (radius 2.794)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 2.54 -1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 2.54 1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+        )
+        (symbol "NMOS,HL2304_1_1"
+            (pin passive line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "D"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "G"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin passive line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "S"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "NMOS,HL3400A"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HL3400A"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8755886392985559040"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 N-channel 1.05nF 1.4V 30V 350mW 35mΩ@10V 5.8A 77pF 99pF N-Channel SOT-23 MOSFETs ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420348"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "477874"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.033USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,MOSFETs"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "HL3400A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "NMOS,HL3400A_0_1"
+            (polyline
+                (pts
+                    (xy 0.254 0) (xy -2.54 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.254 1.905) (xy 0.254 -1.905)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 -1.27) (xy 0.762 -2.286)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 0.508) (xy 0.762 -0.508)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 2.286) (xy 0.762 1.27)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 2.54) (xy 2.54 1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 1.651 0)
+                (radius 2.794)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 2.54 -1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 2.54 1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+        )
+        (symbol "NMOS,HL3400A_1_1"
+            (pin passive line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "D"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "G"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin passive line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "S"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "PMOS,HL3401A"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HL3401A"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8755886398098685952"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 P-Channel 115pF 22nC@10V 30V 350mW 4.2A 50mΩ@10V 77pF 900mV 954pF P-Channel SOT-23 MOSFETs ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420349"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "333922"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.053USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,MOSFETs"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "HL3401A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "PMOS,HL3401A_0_1"
+            (polyline
+                (pts
+                    (xy 0.254 0) (xy -2.54 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.254 1.905) (xy 0.254 -1.905)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 -1.27) (xy 0.762 -2.286)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 0.508) (xy 0.762 -0.508)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 2.286) (xy 0.762 1.27)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 2.54) (xy 2.54 1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 1.651 0)
+                (radius 2.794)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 2.54 -1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 2.54 1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+        )
+        (symbol "PMOS,HL3401A_1_1"
+            (pin passive line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "D"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "G"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin passive line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "S"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "NMOS,2N7002W"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002W"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-323"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8755887318840553472"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55°C~+150°C 1 N-channel 1.6V 115mA 200mW 25pF 50pF 5pF 60V 900mΩ@10V N-Channel SOT-323 MOSFETs ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420322"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "451200"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.027USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,MOSFETs"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "2N7002W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "NMOS,2N7002W_0_1"
+            (polyline
+                (pts
+                    (xy 0.254 0) (xy -2.54 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.254 1.905) (xy 0.254 -1.905)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 -1.27) (xy 0.762 -2.286)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 0.508) (xy 0.762 -0.508)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 2.286) (xy 0.762 1.27)
+                )
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 2.54) (xy 2.54 1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 1.651 0)
+                (radius 2.794)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (circle
+                (center 2.54 -1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 2.54 1.778)
+                (radius 0.254)
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+        )
+        (symbol "NMOS,2N7002W_1_1"
+            (pin passive line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "D"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "G"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin passive line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "S"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
 )
