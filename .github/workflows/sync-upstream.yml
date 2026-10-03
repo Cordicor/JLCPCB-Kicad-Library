@@ -66,41 +66,38 @@ jobs:
         run: |
           python - << 'PY'
           from pathlib import Path
-          p = Path("libraryCreatorScript.py")
-          text = p.read_text()
-          old = '''    try:
-              price_json = json.loads(df.loc[index, "price"])
-              if price_json and len(price_json) > 0 and "price" in price_json[0]:
-                  base_price = float(price_json[0]["price"])
-                  # Calculate the total price considering joints and joint cost
-                  price = base_price + (joints * joint_cost)
-                  price = round(price, 3)
-                  price_str = f"{price:.3f}USD"
-
-              else:
-                  price_str = f""
-                  print(f"Error: Price is missing or invalid for https://jlcpcb.com/partdetail/C{lcsc} ({price_json})")
-          except (json.JSONDecodeError, ValueError, KeyError, TypeError):
-              price_str = f""
-              print(f"Error: Price cannot be parsed https://jlcpcb.com/partdetail/C{lcsc}")
-          '''
-          new = '''    price = None
-          try:
-              raw_price = str(df.loc[index, "price"])
-              if raw_price.startswith("["):
-                  price_json = json.loads(raw_price)
-                  base_price = float(price_json[0]["price"])
-              else:
-                  base_price = float(raw_price.split(",")[0].split(":")[-1])
-              price = round(base_price + (joints * joint_cost), 3)
-              price_str = f"{price:.3f}USD"
-          except (json.JSONDecodeError, ValueError, KeyError, TypeError, IndexError):
-              price_str = ""
-              print(f"Error: Price cannot be parsed https://jlcpcb.com/partdetail/C{lcsc}")
-          '''
-          if old not in text:
-              raise SystemExit("price parser block not found; upstream changed")
-          p.write_text(text.replace(old, new, 1))
+          path = Path("libraryCreatorScript.py")
+          lines = path.read_text().splitlines(keepends=True)
+          start = next(i for i, line in enumerate(lines) if "price_json = json.loads(df.loc[index, \"price\"])" in line)
+          start -= 1  # the try:
+          end = next(i for i in range(start, len(lines)) if "Price cannot be parsed" in lines[i])
+          if not lines[start].lstrip().startswith("try:"):
+              raise SystemExit(f"expected try at line {start + 1}: {lines[start]!r}")
+          indent = lines[start][: len(lines[start]) - len(lines[start].lstrip())]
+          inner = indent + "    "
+          lines[start:end + 1] = [
+              f"{indent}price = None\n",
+              f"{indent}try:\n",
+              f"{inner}raw_price = str(df.loc[index, \"price\"])\n",
+              f"{inner}if raw_price.startswith(\"[\") :\n",
+              f"{inner}    price_json = json.loads(raw_price)\n",
+              f"{inner}    base_price = float(price_json[0][\"price\"])\n",
+              f"{inner}else:\n",
+              f"{inner}    base_price = float(raw_price.split(\",\")[0].split(\":\")[-1])\n",
+              f"{inner}price = round(base_price + (joints * joint_cost), 3)\n",
+              f"{inner}price_str = f\"{{price:.3f}}USD\"\n",
+              f"{indent}except (json.JSONDecodeError, ValueError, KeyError, TypeError, IndexError):\n",
+              f"{inner}price_str = \"\"\n",
+              f"{inner}print(f\"Error: Price cannot be parsed https://jlcpcb.com/partdetail/C{{lcsc}}\")\n",
+          ]
+          text = "".join(lines)
+          text = text.replace(
+              "if price > 3.0 or footprint_name == \"0201\"",
+              "if price is None or price > 3.0 or footprint_name == \"0201\"",
+              1,
+          )
+          path.write_text(text)
+          print("patched price parser")
           PY
 
       - name: Generate symbol libraries
