@@ -58,25 +58,20 @@ jobs:
           # The upstream library generator must not run in this fork
           git rm -q -f --ignore-unmatch .github/workflows/update-library.yml
 
-      - name: Fill symbol libraries from upstream release
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Generate symbol libraries
         run: |
           set -euo pipefail
-          zip="$(mktemp)"
-          tmp="$(mktemp -d)"
-          url="$(curl -fsSL https://api.github.com/repos/CDFER/JLCPCB-Kicad-Library/releases/latest \
-            | sed -n 's/.*"browser_download_url": "\(.*\.zip\)".*/\1/p' | head -n 1)"
-          [ -n "$url" ]
-          echo "Release zip: $url"
-          curl -fL --retry 3 -o "$zip" "$url"
-          unzip -q "$zip" -d "$tmp"
-          src="$(find "$tmp" -type d -name symbols -print -quit)"
-          [ -n "$src" ]
-          find "$src" -name '*.kicad_sym' -exec cp -f {} symbols/ \;
+          pip install -r requirements.txt
+          python libraryCreatorScript.py
           if ! grep -q '(symbol ' symbols/JLCPCB-Resistors.kicad_sym; then
-            echo "::error::release zip did not contain generated symbols"
+            echo "::error::libraryCreatorScript.py did not write symbols"
             exit 1
           fi
-          rm -rf "$zip" "$tmp"
+          rm -f JLCPCB-KiCad-Library-*.zip leftover.csv
 
       - name: Rewrite 3D-model paths
         run: |
